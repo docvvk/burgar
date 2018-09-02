@@ -1,43 +1,39 @@
 /*Color of Devoured burgers card header*/
 #devoured-card-header  {
-    background-color: #ca341f;
+    background-color: #0000001e;
 }
 
 /*Font color of devoured burger names*/
 .devoured-burger-name {
-    color: #ca341f;
+    color: #f8afff;
 }
 
 /* Use Righteous font from Google fonts*/
 body {
-    font-family: 'Righteous', cursive;
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Audiowide', cursive;
 }
 
-h1 {
-    text-shadow:2px 2px 8px #FF0000;
-    border-radius: 10px;
-}
 
 /* Font size of app title in jumbotron*/
 #app-title {
-    font-size: 90px;
+    font-size: 50px;
+    text-shadow: 4px 5px 8px #FF0000;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 1000;
 }
 
 /*Font size of lead statement in jumbotron*/
 .lead {
-    font-size: 24px;
+    font-size: 30px;
+    text-shadow: 1px 1px 4px #FF0000;
 }
 
 /* Burger background image*/
 body {
-    background-image: url("/assets/img/burger4.jpg");
+    background-image: url("/assets/img/burger9.gif");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-/* Footer color */
-.footer-body {
-    background-image: linear-gradient(-90deg, rgb(0, 0, 0), yellow);
 }
 
 /*Border styling for devoured burgers card and footer */
@@ -46,10 +42,28 @@ body {
     border-color: #000000;
 }
 
-.card-title, p.card-text {
-    color: #000000;
+p.card-text {
+    color: #f0ff25;
+}
+.card-title {
+    color: #FF0000;
+    font-size: 25px;
+    font-family: 'Rock Salt', cursive;
 }
 
-.card-body {
-    background-image: linear-gradient(-90deg, black, white)
+.card-header {
+    background-image: linear-gradient(-90deg, rgba(0, 0, 0, 0.253), rgba(255, 255, 255, 0.253));
+    color: blanchedalmond;
+}
+
+.banner {
+    padding: 10vh 0 7vh 0;
+}
+.card {
+    background: #0000001e;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+.btn {
+    color: bisque;
 }

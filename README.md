@@ -1,6 +1,6 @@
 # Burgers Singh
 <p>A full stack, MVC (Model-View-Controller) application that allows you to create burgers (POST), view a list of burgers available to eat (GET), devour burgers (PUT), and throw them away after devoured (DELETE).</p>
-<img src="./public/assets/img/burger3.png">
+<img src="./public/assets/img/burger1.jpg">
 
 ## Table of contents
   * [Live](#live)
