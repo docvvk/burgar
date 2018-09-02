@@ -4,7 +4,7 @@ var mysql = require("mysql");
 //Read and set any environment variables with the dotenv package.
 require("dotenv").config();
 
-// console.log(process.env.JAWSDB_URL);
+// console.log(process.env.JAWSDB_GOLD_URL);
 
 var connection;
 
@@ -18,9 +18,9 @@ var connection;
 //     password: process.env.JAWSDB_PASSWORD,
 //     database: process.env.JAWSDB_DATABASE
 //   });
-if (process.env.JAWSDB_URL) {
+if (process.env.JAWSDB_GOLD_URL) {
   //Heroku deployment
-  connection = mysql.createConnection(process.env.JAWSDB_URL);
+  connection = mysql.createConnection(process.env.JAWSDB_GOLD_URL);
 
 } else {
   connection = mysql.createConnection({
