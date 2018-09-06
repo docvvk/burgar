@@ -6,24 +6,16 @@ require("dotenv").config();
 
 // console.log(process.env.JAWSDB_URL);
 
-var connection;
+// var connection;
 
 //Define database connection properties (host, user, password, and database name)
 //MySQL password is passed into connection.js from the .env file using the dotenv npm package.
-// if (process.env.JAWSDB_HOST, process.env.JAWSDB_USER, process.env.JAWSDB_PASSWORD, process.env.JAWSDB_DATABASE) {
-//   connection = mysql.createConnection({
-//     host: process.env.JAWSDB_HOST,
-//     port: 3306,
-//     user: process.env.JAWSDB_USER,
-//     password: process.env.JAWSDB_PASSWORD,
-//     database: process.env.JAWSDB_DATABASE
-//   });
 if (process.env.JAWSDB_URL) {
   //Heroku deployment
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 
 } else {
-  connection = mysql.createConnection({
+  var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",

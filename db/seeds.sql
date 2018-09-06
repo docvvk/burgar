@@ -1,6 +1,6 @@
 
-INSERT INTO burgers (burger_name, devoured) VALUES ("Awesome Burger", true);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Chandigarh Burger", true);
 
-INSERT INTO burgers (burger_name, devoured) VALUES ("Good Burger", false);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Balle Balle Burger", false);
 
-INSERT INTO burgers (burger_name, devoured) VALUES ("Mondo Burger", true);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Kukad Burger", true);
